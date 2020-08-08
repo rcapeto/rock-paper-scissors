@@ -3,9 +3,64 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="./style.css">
       <title>Rock Paper Scissors</title>
+      <script src="./script.js" defer></script>
    </head>
    <body>
-      
+      <div id="app">
+         <div class="header">
+            <header>
+               <h3>Jokempô</h3>
+            </header>
+         </div>
+
+        <div class="app-content">
+            <div class="how-to-play">
+               <h2>Como jogar?</h2>
+
+               <p>Selecione uma das opções abaixo e batalhe contra o computador.</p>
+            </div>
+
+            <div class="options">
+               <p><span>[ 0 ]</span> Pedra</p>
+               <p><span>[ 1 ]</span> Papel</p>
+               <p><span>[ 2 ]</span> Tesoura</p>
+            </div>
+
+            <div class="input-player">
+               <label for="player">Qual a sua jogada?</label>
+               <input type="text" name="player" id="player">
+
+            </div>
+            <div class="button-play">
+               <p></p>
+               <button id="play-game">Jogar!</button>
+            </div>
+
+            <div class="results draw">
+               
+            </div>
+         </div>
+
+         <div class="footer">
+            <footer>
+               <div class="socials">
+                  <div class="github">
+                     <i class="fa fa-github" aria-hidden="true"></i>
+                  </div>
+                  <div class="insta">
+                     <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </div>
+                  <div class="linkedin">
+                     <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </div>
+               </div>
+               <p>© Raphael Capeto - 2020. All rights reserved.</p>
+            </footer>
+         </div>
+      </div>
    </body>
 </html>
