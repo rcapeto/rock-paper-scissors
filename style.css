@@ -156,6 +156,7 @@ p {
 
 .results p {
    font-size: 2rem;
+   margin-top: 0.3rem;
 }
 
 .results p span {
